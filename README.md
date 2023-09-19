@@ -1,1 +1,2 @@
-# Python dsfdsfsdfdsfdfdfdfdfdfdfdf
+# Python 관련 저장소
+문법, 알고리즘, 꿀팁 등
