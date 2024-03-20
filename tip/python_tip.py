@@ -44,3 +44,11 @@ aList = [[1, 2, 3], ['a', 'b', 'c']]
 
 bList = [aList[i][0] for i in range(len(aList))]
 print(bList)
+
+
+# 10진수로 표현된 음의 정수를 32bit의 16진수로 변환하는 코드
+def tohex(value, nbit):
+    conv = (value + (1 << nbit))
+    return hex(conv)
+
+print(tohex(-100, 32))
